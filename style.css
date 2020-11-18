@@ -1,37 +1,106 @@
 
+body{
+    font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    color: #25415d;
+}
+
+/* Nav bar */
+.topnav {
+    overflow: hidden;
+    background-color: #25415d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    font-weight: 700;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 40px;
+    display: block;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #00A99D;
+  }
+  
+  .topnav a.active {
+    background-color: #00A99D;
+    color: white;
+  }
+  /*End Nav bar */
+
+/*Profile Image*/
+.profile-image { 
+    margin-top: 150px;
+    margin-left: 250px;
+    float: left;
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
+}
+/*End Profile Image*/
+
+/* Maria profile text*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(61, 152, 194, 0.2);
-    max-width: 500px;
-    min-width: 300px;
-    margin: auto;
+    width: 40%;
+    float:right;
     text-align: center;
-    font-family: "Montserrat",Helvetica, sans-serif;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+/*End Maria profile text*/
+
+/*Maria Cano title*/
+.title {
+    color: #3a70a3;
+    font-size: 28px;
   }
-  
-  .title {
-    color: rgb(61, 152, 194);
-    font-size: 18px;
-  }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
+/*Maria Cano title*/
+
+/*SiteBites link*/
+.link-to-web {
     cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  a {
     text-decoration: none;
-    font-size: 22px;
-    color: black;
+    color: #25415d;
+    
+}
+.link-to-web:visited {
+    cursor: pointer;
+    text-decoration: none;
+    color: #25415d;
+}
+
+/*Linkedin icon*/
+  .fa {
+    padding: 10px;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
   }
-  
-  button:hover, a:hover {
+
+.fa-linkedin {
+    background: #007bb5;
+    color:white;
+    border-radius: 5px;
+}
+.a-fa-linkedin:hover {
     opacity: 0.7;
+}
+
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
   }
