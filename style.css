@@ -1,7 +1,8 @@
 
 body{
     font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
+    text-align: center;
     color: #25415d;
 }
 
@@ -57,12 +58,20 @@ body{
     text-align: center;
     margin-top: 200px;
     margin-right: 200px;
+    border-left: 2px #25415d solid;
 }
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /*End Maria profile text*/
 
 /*Maria Cano title*/
-.title {
-    color: #3a70a3;
+h1 {
+    color: #25415d;
     font-size: 28px;
   }
 /*Maria Cano title*/
@@ -99,8 +108,26 @@ body{
     opacity: 0.7;
 }
 
-section {
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
-  }
+/*For all the sections*/
+
+h2 {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+    background: #00a99eb4;
+    position: relative;
+}
+
+img {
+    border-radius: 15px;
+}
+/* End all the sections*/
+
+/*footer*/
+footer {
+    padding-top:30px;
+}
