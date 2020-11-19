@@ -15,7 +15,7 @@ body{
     width: 100%;
   }
   
-  .topnav a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     font-weight: 700;
@@ -28,15 +28,11 @@ body{
     display: block;
   }
   
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #ddd;
     color: #00A99D;
   }
-  
-  .topnav a.active {
-    background-color: #00A99D;
-    color: white;
-  }
+
   /*End Nav bar */
 
 /*Profile Image*/
