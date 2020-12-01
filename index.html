@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--link for the linkedin icon-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--link for the button icon-->
 </head>
 
 <body>
@@ -55,7 +56,16 @@
             <img src="https://images.unsplash.com/photo-1560651921-d0f00d033501?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="Violin" width="300px"/>
             <img src="https://images.unsplash.com/photo-1560651921-d0f00d033501?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="Violin" width="300px"/>
         </div> 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <button id="btnScrollToTop">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+        <script> 
+            const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+            btnScrollToTop.addEventListener("click", function () {
+                window.scrollTo(0,0);
+            })
+        </script>
     <footer>
     <p><strong>Maria Cano Lopez &copy; 2020</strong></p>
     </footer>
