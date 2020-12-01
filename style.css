@@ -45,6 +45,17 @@ body{
     height: auto;
     border-radius: 50%;
 }
+
+.profile-image:hover { 
+    margin-top: 150px;
+    margin-left: 250px;
+    float: left;
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+
 /*End Profile Image*/
 
 /* Maria profile text*/
