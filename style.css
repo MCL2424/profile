@@ -84,6 +84,29 @@ h1 {
   }
 /*Maria Cano title*/
 
+/* SiteBites button*/
+#button1 {
+    border-radius: 5px;
+    color: white;
+    background-color: #25415d;
+    padding: 5px 10px 8px 10px;
+}
+#button1:hover {
+  animation-name: background-color;
+  animation-duration: 1s;
+}
+@keyframes background-color {
+  0% {
+    background-color:#25415d;
+  }
+  50% {
+   background-color: #00a99eb4;
+  }
+  100% {
+   background-color: #00A99D;
+  }
+} 
+
 /*SiteBites link*/
 .link-to-web {
     cursor: pointer;
@@ -125,11 +148,12 @@ h2 {
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    text-decoration: underline;
     font-size: 20px;
     font-weight: 700;
     background: #00a99eb4;
     position: relative;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+
 }
 
 img {
