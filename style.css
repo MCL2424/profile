@@ -94,6 +94,7 @@ h1 {
 #button1:hover {
   animation-name: background-color;
   animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 @keyframes background-color {
   0% {
