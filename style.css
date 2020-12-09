@@ -45,17 +45,6 @@ body{
     height: auto;
     border-radius: 50%;
 }
-
-.profile-image:hover { 
-    margin-top: 150px;
-    margin-left: 250px;
-    float: left;
-    width: 240px;
-    height: auto;
-    border-radius: 50%;
-    transform: scale(1.1);
-}
-
 /*End Profile Image*/
 
 /* Maria profile text*/
@@ -107,6 +96,7 @@ h1 {
    background-color: #00A99D;
   }
 } 
+/* SiteBites button*/
 
 /*SiteBites link*/
 .link-to-web {
@@ -157,9 +147,18 @@ h2 {
 
 }
 
-img {
-    padding-right: 15px;
+.transform-scale {
+    padding-right: 20px;
+    border-radius: 15%;
 }
+
+.transform-scale:hover { 
+    padding-right:35px;
+    padding-left: 15px;
+    transform: scale(1.1);
+    
+}
+
 /* End all the sections*/
 
 /* Start Button */
