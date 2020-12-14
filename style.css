@@ -14,6 +14,7 @@ body{
     top: 0;
     width: 100%;
     z-index: 2;
+  
   }
   
 .topnav a {
@@ -166,6 +167,11 @@ h1 {
 
 /*For all the sections*/
 
+section {
+  width: 80%;
+  margin: auto;
+
+}
 h2 {
     margin-top: 150px;
     padding-top: 25px;
