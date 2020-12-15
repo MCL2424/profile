@@ -5,6 +5,7 @@ body{
     text-align: center;
     color: #25415d;
 }
+
 .paragrah-100px-top {
   padding-top: 40px;
 }
@@ -16,10 +17,9 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
-  
+    z-index: 2; 
   }
-  
+
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -116,6 +116,7 @@ h1 {
     background-color: #25415d;
     padding: 5px 10px 8px 10px;
 }
+
 #button1:hover {
   animation-name: background-color;
   animation-duration: 1s;
@@ -156,13 +157,14 @@ h1 {
     text-align: center;
     text-decoration: none;
     margin: 15px 2px;
-  }
+}
 
 .fa-linkedin {
     background: #007bb5;
     color:white;
     border-radius: 5px;
 }
+
 .a-fa-linkedin:hover {
     opacity: 0.7;
 }
@@ -173,8 +175,8 @@ h1 {
 section {
   width: 80%;
   margin: 100px auto;
-
 }
+
 h2 {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -184,24 +186,27 @@ h2 {
     background: #00a99eb4;
     position: relative;
     font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
-
 }
+
 /* Links*/
 .links:link {
   color: #25415d;
   font-weight: 700;
   text-decoration: none;
 }
+
 .links:visited {
   color: #25415d;
   font-weight: 700;
   text-decoration: none;
 }
+
 .links:hover {
   color: #25415d;
   font-weight: 700;
   text-decoration: none;
 }
+
 .links:active {
   color: #25415d;
   font-weight: 700;
@@ -214,8 +219,8 @@ h2 {
     padding-top: 20px;
     padding-right: 20px;
     border-radius: 15%;
-
 }
+
 .transform-scale:hover { 
     padding-right:35px;
     padding-left: 15px;
@@ -252,3 +257,53 @@ footer {
     padding-top:30px;
 }
 /*End footer*/
+
+/*Testing @media
+@media (max-width:1574px) {
+  .profile-image { 
+    margin-top: 100px;
+    margin-left: 300px;
+    float: left;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(61, 152, 194, 0.2);
+  width: 60%;
+  float:right;
+  text-align: center;
+  margin-top: 150px;
+  border-left: 2px #25415d solid;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+@media (max-width:500px) {
+  .profile-image { 
+    margin-top: 100px;
+    margin-left: 300px;
+    float: left;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(61, 152, 194, 0.2);
+  width: 80%;
+  float:right;
+  text-align: center;
+  margin-top: 150px;
+  border-left: 2px #25415d solid;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
