@@ -197,25 +197,25 @@ h1 {
 /*Sections*/
 /* Links*/
 .links:link {
-  color: var(-color-darkblue);
+  color: var(--color-darkblue);
   font-weight: 700;
   text-decoration: none;
 }
   
 .links:visited {
-  color: var(-color-darkblue);
+  color: var(--color-darkblue);
   font-weight: 700;
   text-decoration: none;
 }
   
 .links:hover {
-  color: var(-color-darkblue);
+  color: var(--color-darkblue);
   font-weight: 700;
   text-decoration: none;
 }
   
 .links:active {
-  color: var(-color-darkblue);
+  color: var(--color-darkblue);
   font-weight: 700;
   text-decoration: none;
 }
