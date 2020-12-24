@@ -394,7 +394,6 @@ textarea {
 .submit-button {
   width: 15%;
   padding: 15px;
-  background: var(--color-green);
   border-radius: 5px;
   cursor: pointer;
   border: 2px solid var(--color-darkblue); 
@@ -417,3 +416,4 @@ textarea {
      background-color: var(--color-turquoise);
     }
   } 
+
