@@ -105,11 +105,10 @@ section {
   align-items: center;
     
 }
-      
 @media (min-width: 576px) {
   #presentation-box {
     max-width: 500px;
-   }
+}
 }
       
 @media (min-width: 768px) {
@@ -317,7 +316,7 @@ h2 {
   width: 70%;
 }
 
-@media (min-width: 576px) {
+@media and(min-width: 576px) {
   .give-feedback {
     max-width: 540px;
   }
@@ -416,4 +415,3 @@ textarea {
      background-color: var(--color-turquoise);
     }
   } 
-
