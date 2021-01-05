@@ -316,7 +316,7 @@ h2 {
   width: 70%;
 }
 
-@media and(min-width: 576px) {
+@media (min-width: 576px) {
   .give-feedback {
     max-width: 540px;
   }
@@ -391,7 +391,7 @@ textarea {
 }
 
 .submit-button {
-  width: 15%;
+  width: 30%;
   padding: 15px;
   border-radius: 5px;
   cursor: pointer;
