@@ -312,7 +312,7 @@ h2 {
 
 /*Survey form*/
 #give-feedback {
-  margin: auto;
+  margin: 0px auto;
   width: 70%;
 }
 
@@ -331,18 +331,25 @@ h2 {
 form {
   background: var(--color-lighter-turquoise);
   border-radius: 10px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
-form, p {
-  padding-top:10px;
-  padding-bottom: 10px;
+.form-intro{
+  text-align: center;
   font-weight: 700;
+  margin: 50px 0px 20px 0px;
 }
 
 label {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.margin-bottom-10px {
+  margin: 0px 0px 10px 0px;
+
 }
 
 input,
@@ -356,14 +363,14 @@ textarea {
 
 .form-group {
   margin: 0px auto;
-  padding: 20px 0px 20px 50px;
-  width: 100%;
+  padding: 50px 0px 20px 150px;
+  width: 80%;
 }
   
 .form-control {
   display: block;
   width: 80%;
-  padding: 15px 15px;
+  padding: 15px 30px;
   color: #495057;
   background-color: #fff;
   border: 1px solid var(--color-darkblue);
@@ -385,7 +392,7 @@ textarea {
   overflow: auto;
   box-sizing: border-box;
   min-height: 120px;
-  width: 82%;
+  width: 80%;
   border-radius: 5px;
   border: 2px solid var(--color-darkblue); 
 }
