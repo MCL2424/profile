@@ -11,7 +11,8 @@
 body{
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-size: 20px;
-  color: var(--color-darkblue);    
+  color: var(--color-darkblue);   
+  margin: 0 auto;
 }
 
 section {
@@ -135,7 +136,6 @@ section {
    max-width: 720px;
   }
 }
-
 /*End Presentation container - image & card*/
 
 /*Profile Image*/
@@ -147,18 +147,41 @@ section {
   justify-items: center;
 }
 
+/* Responsive Profile Image*/
+@media only screen and (min-width: 850px) and (max-width:1400px) {
+  #home {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  #home {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  #home {
+    width: 150px;
+  }
+}
+
+/*Mobile*/
+@media only screen and (max-width:700px) {
+  #home {
+      width: 80px;
+  }
+} 
 /*End Profile Image*/
-/* Mobile Profile Image*/
-
-
-/* End Mobile Profile Image*/
+/* End Responsive Profile Image*/
 
 /* Maria profile card*/
 .card-container {
   box-shadow: 0 4px 8px 0 rgba(61, 152, 194, 0.2);
   justify-content: center;
   border-left: 2px var(--color-turquoise) solid;
-  padding-left: 100px;
+  padding-top: 30px;
+  padding-left: 80px;
   height: 200px;
 }
 
@@ -178,7 +201,6 @@ section {
 }
 
 /*End SiteBites link*/
-/*End Maria profile card*/
 
 /*Maria Cano title*/
 h1 {
@@ -186,7 +208,35 @@ h1 {
   font-size: 28px;
  }
 
-/*Maria Cano title*/
+/*H1 only visible in mobile*/
+@media only screen and (min-width:450px) and (max-width: 4000px) {
+  .mobile-title {
+    display: none;
+  }
+} 
+#full-size-container{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    display: none;
+   }
+  
+  #full-size-container{
+    display: block;
+  }
+
+  .mobile-title {
+    width: 80%;
+    margin: 0px 50px -180px 50px; 
+    padding: 80px 0px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+}
+/* End Maria Cano title*/
 
 /* SiteBites button*/
 #button1 {
@@ -214,7 +264,52 @@ h1 {
    background-color: var(--color-turquoise);
   }
 } 
+
+@media only screen and (max-width:450px) {
+  #button1 {
+    font-size: 10px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+  }
+}
 /* End SiteBites button*/
+
+@media only screen and (max-width:850px) {
+  .card-container {
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 180px;
+    max-width: fit-content;
+  }
+}
+
+/*@media card-container*/
+@media only screen and (max-width:800px) {
+  .card-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 160px;
+    max-width: fit-content;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .card-container {
+    padding: 20px 10px 30px 10px;
+    height: 100px;
+  }
+}
+
+/*Mobile Maria profile card*/
+@media only screen and (min-width:200px) and (max-width:800px) {
+  .small-paragraph {
+  font-size: 12px;
+  text-align: center;
+  }
+}
+/*End Mobile Maria profile card*/
+/*End Maria profile card*/
+
 
 /*Sections*/
 /* Links*/
@@ -255,7 +350,6 @@ h1 {
   padding-left: 15px;
   transform: scale(1.1);
 }
-
 /*End Images*/
 
 
@@ -445,3 +539,6 @@ textarea {
      background-color: var(--color-turquoise);
     }
   } 
+
+   
+ 
